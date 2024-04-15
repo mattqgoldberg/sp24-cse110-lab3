@@ -65,13 +65,55 @@
                 <video controls src="assets/girard_video.mp4"></video>
             </section>
             <section>
+                <h2>Summary</h2>
                 <details>
                     <summary>Details</summary>
                     This meeting was not real.
                 </details>
             </section>
             <section>
-                <h2>Forms</h2>
+                <h2>Form</h2>
+                <form>
+                    <fieldset>
+                        <label for="love">Love Giraffes?</label>
+                        <input id="love" name="love" type="checkbox">
+                        <br>
+                        <label for="gir">Girrafes</label>
+                        <input id="gir" name="fav" type="radio">
+                        <label for="pan">Pandas</label>
+                        <input id="pan" name="fav" type="radio">
+                        <br>
+                        <label for="date">When is your appointment?</label>
+                        <input id="date" type="date">
+                        <br>
+                        <label for="about">Tell us about yourself</label>
+                        <br>
+                        <textarea placeholder="My name is..." id="about" rows="6" cols="22"></textarea>
+                        <br>
+
+                        <label for="food_choice">Choose the best one!</label>
+                        <input name="food_choice" id="food_choice" list="food">
+                        <datalist id="food">
+                            <option value="Bread"></option>
+                            <option value="Butter"></option>
+                            <option value="Salad"></option>
+                            <option value="Starve"></option>
+                        </datalist>
+                        <br>
+                        <label for="animal">Scariest animal?</label>
+        
+                        <select name="animalselect" id="animal">
+                            <option value="Cat">Cat</option>
+                            <option value="Dog">Dog</option>
+                            <option value="Shark">Shark</option>
+                        </select>
+                        <br>
+
+                        <label for="other">Anything else?</label>
+                        <input id="other" type="text">
+                        <button>Submit</button>
+                    </fieldset>
+                </form>
             </section>
         </main>
 
