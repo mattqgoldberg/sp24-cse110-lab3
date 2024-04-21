@@ -1,0 +1,19 @@
+/* Variables go here */
+:root {
+    --main-text-color: #704a38;
+    --main-background-color: rgb(240, 236, 226);
+}
+
+* {
+    /* variable with fallback*/
+    color: var(--main-text-color, brown);
+}
+
+body {
+    background-color: var(--main-background-color, black);
+}
+
+/* Pseudo-class selector*/
+a:hover {
+    color: chocolate;
+}
