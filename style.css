@@ -93,7 +93,7 @@ img {
 }
 
 form {
-    margin: 15px;
+    margin-top: 15px;
 }
 
 fieldset {
@@ -104,9 +104,16 @@ fieldset {
     justify-content: start;
     flex: end;
     align-content: center;
-    border: 2px dashed black;
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 10px;
 }
 
 footer {
     background-color: var(--blend1);
+}
+
+audio {
+    padding-top: 5px;
 }
