@@ -113,6 +113,9 @@ fieldset {
 
 footer {
     background-color: var(--blend1);
+    position: absolute;
+    margin-top: 10px;
+    width: 100vw;
 }
 
 audio {
