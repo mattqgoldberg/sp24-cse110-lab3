@@ -17,6 +17,7 @@
     /* variable with fallback*/
     color: var(--text1, brown);
     font-family: "Oswald", Arial, Helvetica, sans-serif;
+    font-size: x-large;
 }
 
 header {
@@ -69,6 +70,7 @@ h2 {
     padding: auto;
     width: 20%;
     margin: auto;
+    font-size: xx-large;
 }
 
 .heading-separate {
