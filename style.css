@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("assets/Oswald.ttf");
+}
+
 /* Variables go here */
 :root {
     --text1: #543b29;
@@ -11,6 +16,7 @@
 * {
     /* variable with fallback*/
     color: var(--text1, brown);
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
 }
 
 header {
