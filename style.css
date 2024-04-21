@@ -1,19 +1,70 @@
 /* Variables go here */
 :root {
-    --main-text-color: #704a38;
-    --main-background-color: rgb(240, 236, 226);
+    --text1: #543b29;
+    --background1: rgb(217, 206, 174);
+    --border1: hsl(23deg,87%,25%);
+    --hover-color: chocolate;
+    --blend1: color-mix(in lch, var(--text1), var(--background1));
+    --green: color(from green srgb r g b / 0.5);
 }
 
 * {
     /* variable with fallback*/
-    color: var(--main-text-color, brown);
+    color: var(--text1, brown);
+}
+
+header {
+    border-bottom: 1px solid var(--border1, brown);
+    background-color: var(--blend1);
 }
 
 body {
-    background-color: var(--main-background-color, black);
+    background-color: var(--background1);
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 /* Pseudo-class selector*/
 a:hover {
-    color: chocolate;
+    color: var(--green, brown);
+}
+
+nav {
+    position: fixed;
+    background-color: var(--border1, blue);
+    border-radius: 0 0px 0px 15px;
+    padding: 5px;
+    top: 0;
+    right: 0;
+}
+
+a {
+    color: black;
+    text-decoration-style: none;
+    font-size: 2em;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    display: table;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: left;
+}
+
+h2 {
+    background-color: var(--blend1);
+    padding: auto;
+    width: 20%;
+    margin: auto;
+}
+
+.heading-separate {
+    height: 20px;
 }
