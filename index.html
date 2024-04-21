@@ -79,8 +79,20 @@
             </section>
             <section>
                 <h2>Media Attachments</h2>
-                <h2> Girard</h2>
-                <img width="400" src="https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_giraffe_1_0.jpg" alt="Girard">
+                <div class="heading-separate"></div>
+                <h2>Meet The Team</h2>
+                <div id="girard-img">
+                    <img src="https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_giraffe_1_0.jpg" alt="Girard">
+                    <img src="https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_giraffe_1_0.jpg" alt="Girard">
+                    <img src="https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_giraffe_1_0.jpg" alt="Girard">
+                    <img src="https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_giraffe_1_0.jpg" alt="Girard">
+                    <img src="https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_giraffe_1_0.jpg" alt="Girard">
+                    <img src="https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_giraffe_1_0.jpg" alt="Girard">
+                    <img src="https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_giraffe_1_0.jpg" alt="Girard">
+                    <img src="https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_giraffe_1_0.jpg" alt="Girard">
+                    <img src="https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_giraffe_1_0.jpg" alt="Girard">
+                </div>
+                
                 <h2>Girard eating</h2>
                 <audio controls src="assets/girard_audio.mp3"></audio>
                 <br>
@@ -97,43 +109,53 @@
                 <h2>Form</h2>
                 <form>
                     <fieldset>
-                        <label for="love">Love Giraffes?</label>
-                        <input id="love" name="love" type="checkbox">
-                        <br>
-                        <label for="gir">Girrafes</label>
-                        <input id="gir" name="fav" type="radio">
-                        <label for="pan">Pandas</label>
-                        <input id="pan" name="fav" type="radio">
-                        <br>
-                        <label for="date">When is your appointment?</label>
-                        <input id="date" type="date">
-                        <br>
-                        <label for="about">Tell us about yourself</label>
-                        <br>
-                        <textarea placeholder="My name is..." id="about" rows="6" cols="22"></textarea>
-                        <br>
+                        <div>
+                            <label for="love">Love Giraffes?</label>
+                            <input id="love" name="love" type="checkbox">
+                        </div>
+                        
+                        <div>
+                            <label for="gir">Girrafes</label>
+                            <input id="gir" name="fav" type="radio">
+                            <label for="pan">Pandas</label>
+                            <input id="pan" name="fav" type="radio">
+                        </div>
 
-                        <label for="food_choice">Choose the best one!</label>
-                        <input name="food_choice" id="food_choice" list="food">
-                        <datalist id="food">
-                            <option value="Bread"></option>
-                            <option value="Butter"></option>
-                            <option value="Salad"></option>
-                            <option value="Starve"></option>
-                        </datalist>
-                        <br>
-                        <label for="animal">Scariest animal?</label>
-        
-                        <select name="animalselect" id="animal">
-                            <option value="Cat">Cat</option>
-                            <option value="Dog">Dog</option>
-                            <option value="Shark">Shark</option>
-                        </select>
-                        <br>
+                        <div>
+                            <label for="date">When is your appointment?</label>
+                            <input id="date" type="date">
+                        </div>
+                        
+                        <div>
+                            <label for="about">Tell us about yourself</label>
+                            <textarea placeholder="My name is..." id="about" rows="6" cols="22"></textarea>
+                        </div>
+                        
 
-                        <label for="other">Anything else?</label>
-                        <input id="other" type="text">
-                        <button>Submit</button>
+                        <div>
+                            <label for="food_choice">Choose the best one!</label>
+                            <input name="food_choice" id="food_choice" list="food">
+                            <datalist id="food">
+                                <option value="Bread"></option>
+                                <option value="Butter"></option>
+                                <option value="Salad"></option>
+                                <option value="Starve"></option>
+                            </datalist>
+                        </div>
+                        
+                        <div>
+                            <label for="animal">Scariest animal?</label>
+                            <select name="animalselect" id="animal">
+                                <option value="Cat">Cat</option>
+                                <option value="Dog">Dog</option>
+                                <option value="Shark">Shark</option>
+                            </select>
+                            <br>
+                        </div>
+                        
+                        <div>
+                            <button>Submit</button>
+                        </div>
                     </fieldset>
                 </form>
             </section>
