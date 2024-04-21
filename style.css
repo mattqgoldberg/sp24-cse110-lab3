@@ -79,6 +79,7 @@ h2 {
 
 img {
     max-width: 300px;
+    width: 200px;
     min-width: 50px;
     margin: auto;
 }
@@ -136,4 +137,31 @@ h1 {
 
 .hide-me {
     display: none;
+}
+
+@media (width <= 1000px) {
+    h2 {
+        width: 40%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    img {
+        width: 10%;
+    }
+
+    video {
+        width: 80vw;
+    }
+
+    form {
+        display: block;
+        width: 90vw;
+    }
+
+    fieldset {
+        display: block;
+    }
 }
