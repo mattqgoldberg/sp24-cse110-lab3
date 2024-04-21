@@ -21,7 +21,7 @@
 }
 
 header {
-    border-bottom: 1px solid var(--border1, brown);
+    border-bottom: 1pt solid var(--border1, brown);
     background-color: var(--blend1);
 }
 
@@ -40,8 +40,8 @@ a:hover {
 nav {
     position: fixed;
     background-color: var(--border1, blue);
-    border-radius: 0 0px 0px 15px;
-    padding: 5px;
+    border-radius: 0 0px 0px 0.5rem;
+    padding: 1mm;
     top: 0;
     right: 0;
 }
@@ -98,7 +98,7 @@ form {
 
 fieldset {
     margin: 10px;
-    width: 60%;
+    width: 60vw;
     display: flex;
     margin: auto;
     justify-content: start;
