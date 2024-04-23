@@ -125,10 +125,6 @@ button:active {
     background-color: green;
 }
 
-h1 {
-    font-size: xx-large;
-}
-
 .same-line {
     display: inline;
 }
